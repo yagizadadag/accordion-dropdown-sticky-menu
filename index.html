@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Bungee+Outline&family=Righteous&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Sticky Menu-->
+    <div id="sticky-menu-container" class="sticky-menu-container">
+        <button id="sticky-btn" onclick="toggleMenu()">
+            <i class="fa-brands fa-gitlab"></i></button>
+        <div id="sticky-menu" class="sticky-menu">
+            <a href="#main-page"><i class="fa-brands fa-gitlab"></i></a>
+            <a href="#link1">home</a>
+            <a href="#link2">about</a>
+            <a href="#link3">contact</a>
+            <a href="#link4">explore</a>
+        </div>
+    </div>
+    <!--Main Page-->
+    <section id="main-page" class="main-page">
+        <header class="page-header">
+            <a href="#" class="page-logo header-link"><i class="fa-brands fa-gitlab"></i></a>
+            <a href="#" class="header-link">home</a>
+            <a href="#" class="header-link">about</a>
+            <a href="#" class="header-link">contact</a>
+            <a href="#" class="header-link">explore</a>
+        </header>
+        <div class="main-page-clip">
+            <div class="main-page-container">
+                <div class="main-page-content">
+                    <div class="header-animation">
+                        <h1 class="main-page-content-header">header</h1>
+                    </div>
+                    <h5 class="main-page-content-subheader">subheader</h5>
+                    <p class="main-page-content-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates beatae possimus illo
+                        perspiciatis
+                        numquam rerum incidunt, sint itaque accusantium accusamus sunt suscipit asperiores iste sequi.
+                    </p>
+                    <a href="#" class="main-page-content-button">click</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Page 2-->
+    <section id="link1" class="page-2">
+        <div class="page-2-image">
+            <img class="second-image" src="project-images/page-2-img.jpg">
+        </div>
+        <p class="rotated-text">rotated</p>
+        <div class="page-2-accordion">
+            <div class="accordion-item" data-aos="fade-up">
+                <button class="accordion-btn">accordion</button>
+                <div class="accordion-text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                <button class="accordion-btn">accordion</button>
+                <div class="accordion-text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                <button class="accordion-btn">accordion</button>
+                <div class="accordion-text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
+                <button class="accordion-btn">accordion</button>
+                <div class="accordion-text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Page 3-->
+    <section id="link2" class="page-3">
+        <div class="page-3-first-area disp-block">
+            <div class="page-3-first-area-headers">
+                <h1 class="first-area-header" data-aos="fade-up">header</h1>
+                <h5 class="first-area-subheader" data-aos="fade-up" data-aos-delay="200">subheader</h5>
+            </div>
+            <div class="first-area-img">
+                <img src="project-images/page-3-img-1.jpg" data-aos="fade-up" data-aos-delay="400">
+            </div>
+            <div class="first-area-bottom">
+                <p class="first-area-paragraph" data-aos="fade-up" data-aos-delay="600">Lorem ipsum dolor sit amet.</p>
+                <p class="first-area-paragraph" data-aos="fade-up" data-aos-delay="600">Lorem ipsum dolor sit amet
+                    consectetur adipisicing.</p>
+                <a class="first-area-button" href="#" data-aos="fade-up" data-aos-delay="800">button</a>
+            </div>
+        </div>
+        <div class="page-3-second-area disp-block">
+            <h1 class="page-3-second-area-header" data-aos="fade-up">amet consectetur adipisicing elit. Quod?</h1>
+            <i class="fa-brands fa-gitlab" data-aos="fade-up" data-aos-delay="400"></i>
+            <div class="input-area" data-aos="fade-up" data-aos-delay="600">
+                <input class="search-input" type="text" placeholder="text-here">
+                <a href="#">search</a>
+            </div>
+        </div>
+        <div class="page-3-third-area disp-block">
+            <div class="vertical-side-img" data-aos="zoom-in" data-aos-delay="400">
+            </div>
+            <div class="vertical-side">
+                <h1 class="vertical-side-header">vertical text - vertical text</h1>
+            </div>
+        </div>
+    </section>
+    <!--Page 4-->
+    <section id="link3" class="page-4">
+        <div class="page-4-left-side">
+            <p class="page-4-text" data-aos="fade-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Tempore, consequuntur!</p>
+            <p class="page-4-subtext" data-aos="fade-left" data-aos-delay="200">Lorem ipsum dolor sit.</p>
+            <button class="dropdown-btn" data-aos="fade-right" data-aos-delay="400">dropdown menu</button>
+            <div class="dropdown-menu">
+                <i class="fa-brands fa-gitlab"></i>
+                <img src="project-images/dropdown-img.jpg">
+                <a href="#" class="dropdown-link">Link 1</a>
+                <a href="#" class="dropdown-link">Link 2</a>
+                <a href="#" class="dropdown-link">Link 3</a>
+                <a href="#" class="dropdown-link">Link 4</a>
+            </div>
+        </div>
+        <div class="page-4-right-side">
+            <img src="project-images/page-4-img.jpg" data-aos="zoom-in" data-aos-delay="600">
+        </div>
+    </section>
+    <!--Footer-->
+    <section id="link4" class="footer">
+        <div class="footer-logo">
+            <i class="fa-brands fa-gitlab" data-aos="zoom-in" data-aos-delay="0"></i>
+        </div>
+        <div class="footer-links">
+            <div class="footer-texts">
+                <a href="" class="footer-link" data-aos="fade-up" data-aos-delay="200">footer text</a>
+                <a href="" class="footer-link" data-aos="fade-up" data-aos-delay="300">footer text</a>
+                <a href="" class="footer-link" data-aos="fade-up" data-aos-delay="400">footer text</a>
+                <a href="" class="footer-link" data-aos="fade-up" data-aos-delay="200">footer text</a>
+                <a href="" class="footer-link" data-aos="fade-up" data-aos-delay="300">footer text</a>
+                <a href="" class="footer-link" data-aos="fade-up" data-aos-delay="400">footer text</a>
+            </div>
+            <div class="social-media-links" data-aos="fade-down" data-aos-delay="100">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="copyright">&copy; Copyright 2022
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Scripts-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+        integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
